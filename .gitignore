@@ -1,0 +1,7 @@
+.DS_Store
+etl/ml-25m/*
+etl/ratings_files/*
+etl/summaries/*
+etl/*zip*
+!etl/ratings_files/.gitkeep
+!etl/summaries/.gitkeep

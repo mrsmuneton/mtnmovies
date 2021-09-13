@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>MM</h1>
+<h4>Top Movies in Set</h4>
+<ul>
+{%for i in range(0, movieslen)%}
+    <li>{{movies[i]}}</li>
+{%endfor%}
+</ul>
+<ul>
+{%for i in range(0, len)%}
+    <li><a href="batch/{{batches[i].decode("utf-8")}}">{{batches[i].decode("utf-8")}}</a></li>
+{%endfor%}
+</ul>
+
+extreme ratings are 1 or 5 (the most polarized positions)
+</body>
+</html>
